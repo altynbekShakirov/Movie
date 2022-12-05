@@ -1,0 +1,36 @@
+public class Cast {
+    private String actorFullName;
+    private String role;
+
+    public Cast() {
+    }
+
+    public Cast(String actorFullName, String role) {
+        this.actorFullName = actorFullName;
+        this.role = role;
+    }
+
+    public String getActorFullName() {
+        return actorFullName;
+    }
+
+    @Override
+    public String toString() {
+        return
+                "actorFullName: " + actorFullName + '\n' +
+                " role: " + role + '\n' ;
+
+    }
+
+    public void setActorFullName(String actorFullName) {
+        this.actorFullName = actorFullName;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+}
